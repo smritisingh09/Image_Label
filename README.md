@@ -18,26 +18,20 @@ The Flower Image Annotation Tool is a computer vision project developed to creat
 ## 🗂️ Project Structure
 
 ```text
-Image_Label/
+Image Label/
 │
 ├── dataset/
-│   └── images/
-│       ├── image1.jpg
-│       ├── image2.jpg
+│   ├── images/
+│   │   ├── Arabian Jasmine(Mogra).jpeg
+│   │   ├── Brassicaceae(Indian Mustard).jpeg
+│   │   └── ...
+│   │
+│   └── labels/
+│       ├── Arabian Jasmine(Mogra).txt
+│       ├── Brassicaceae(Indian Mustard).txt
 │       └── ...
 │
-├── obj_train_data/
-│   ├── image1.jpg
-│   ├── image1.txt
-│   ├── image2.jpg
-│   ├── image2.txt
-│   └── ...
-│
 ├── annotation_tool.ipynb
-├── annotate.ipynb
-├── obj.data
-├── obj.names
-├── train.txt
 └── README.md
 ```
 
